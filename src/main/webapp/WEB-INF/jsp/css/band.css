@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+body {
+	background: #f7f7f7;
+}
+
+#wrapper {
+	width: 900px;
+	margin: 0 auto;
+	background: #f2e8c9;
+}
+
+#header {
+	position: relative;
+	height: 250px;
+	background-color: #ffffff;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 3px;
+}
+
+#header > h1 {
+	text-align: CENTER;
+}
+
+img {
+	float: left;
+	margin: -40px 0 0 0;
+}
+
+h1 {
+	color: #464451;
+}
+
+.nomer {
+	position: absolute;
+	top: 5px;
+	left: 680px;
+	vipt-size: 25px;
+	vipt-style: italic;
+	vipt-weight: bold;
+	color: #464451;
+}
+
+
+#sidebar {
+	background-color: #ffffff;
+	width: 180px;
+	padding: 10px;
+	float: right;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 3px;
+}
+
+.marcer {
+	float: left;
+	margin: 5px 5px 0 0;
+}
+
+#content {
+	margin-bottom: 5px;
+	width: 676px;
+	height: 700px;
+	padding: 10px;
+	background: #ffffff;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 3px;
+	overflow-y: scroll;
+}
+
+.left {
+	float: left;
+	margin: 30px 7px 7px 7px;
+
+}
+
+.right {
+	float: right;
+	margin: 7px 0 7px 7px;
+}
+
+#footer {
+	height: 80px;
+	background-color: #ffffff;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 3px;
+}
+
+.clear {
+	clear: both;
+}
+
+.vip {
+	float: left;
+	margin: 20px 0 0 20px;
+}
+
+.name {
+	float: left;
+	margin: 20px 0 0 60px;
+}
+
+.mail {
+	float: left;
+	margin: 20px 0 0 60px;
+}
+
+a:link {
+	font-size: 16px;
+	color: black
+}
+
+a:hover {
+	font-size: 16px;
+	color: red
+}
